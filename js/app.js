@@ -10,7 +10,7 @@
 
   // var db = new Pouch('todos');
   var db = new PouchDB('todos');
-  var remoteCouch = 'http://user:pass@myname.example.com/todos';
+  var remoteCouch = 'http://127.0.0.1:5984/todos';
   var cookie;
 
   db.info(function (err, info) {
